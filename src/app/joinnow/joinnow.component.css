@@ -1,0 +1,40 @@
+section{
+  height: 400px;
+  background-image:url("../../assets/wallpaper.jpg");
+  background-size:cover;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+form{
+  width:500px;
+  background-color:rgba(1,1,1,0.2);
+  padding:60px;
+  box-sizing:border-box;
+  border-radius:20px;
+}
+input{
+  display:black;
+  margin:10px auto;
+  width:300px;
+  padding:6px 10px;
+  outline:none;
+  border:none;
+  box-sizing:border-box;
+  border-radius:6px;
+}
+button{
+background-color:black;
+font-weight:bold;
+cursor:pointer;
+width:300px;
+border-radius:20px;
+}
+.error{
+  color:red;
+
+  background-color:rgba(1,1,1,1.2);
+  border-radius:20px;
+
+
+}

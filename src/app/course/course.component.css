@@ -1,0 +1,92 @@
+.course {
+  background-color: #eff6ff;
+  padding: 100px 100px;
+}
+.box {
+  background-color: #ffffff;
+  padding: 10px 20px;
+}
+
+@media screen and (max-width: 600px) {
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+/* Centered text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: white;
+}
+mark {
+  background-color: goldenrod;
+  color: #eff6ff;
+  font-size: large;
+  font-family: Copperplate Gothic Light;
+}
+#m2 {
+  background-color: #fa3e3e;
+  color: #eff6ff;
+}
+
+.example-card {
+  max-width: 1095px;
+}
+
+.example-header-image {
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: 100%;
+}
+table {
+  width: 100%;
+}
+::ng-deep .mat-tab-label {
+  height: 27px !important;
+  min-height: 50px !important;
+  margin: 10px !important;
+  width: 535px !important;
+  min-width: 465px !important;
+}
+
+.test {
+  color: black;
+  font-size: smaller;
+}
+
+#grad {
+  background-image: url("/assets/anim.jpg");
+}
+
+h1 {
+  font-size: xxx-large;
+}
+.header {
+  background-image: url("/assets/header2.png");
+  background-size: 100%;
+  width: 1110px;
+  height: 300px;
+  object-position: center;
+  object-fit: cover;
+  text-align: center;
+}
+
+.b1 {
+  text-align: center;
+  background-color: black;
+  color: #eff6ff;
+  font-size: large;
+}
+.txt2 {
+  text-align: center;
+  padding: 150px 0;
+  color: black;
+  font-size: 500%;
+  font-family: Copperplate Gothic Light;
+}
+
+.nom {
+  font-family: constantia;
+  font-size: x-large;
+}

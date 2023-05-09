@@ -1,0 +1,12 @@
+
+
+  <section>
+    <div class="error" *ngIf="msgErreur">
+      {{msgErreur}}
+      </div>
+      <form #f="ngForm" (ngSubmit)="verifier(f)">
+        <input type="text"name="email" placeholder="Tapez votre E-mail " ngModel ><br>
+        <input type="password"name="password" placeholder="Tapez votre mot de passe "  ngModel ><br>
+          <button type="submit" class="btn btn-lg btn-primary">Connexion</button>
+    </form>
+    </section>

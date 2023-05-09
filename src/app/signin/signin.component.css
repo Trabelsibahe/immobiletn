@@ -1,0 +1,56 @@
+
+section{
+
+  height: 400px;
+  background-image:url("../../assets/wallpaper.jpg");
+  background-size:cover;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+form{
+  width:500px;
+  background-color:rgba(1,1,1,0.2);
+  padding:50px;
+  box-sizing:border-box;
+  border-radius:30px;
+  align-content: center;
+
+
+}
+input{
+
+
+
+
+
+  display:black;
+  margin:8px auto;
+  width:300px;
+  padding:6px 10px;
+  outline:none;
+  border:none;
+  box-sizing:content-box;
+  border-radius:30px;
+
+
+  text-align: center;}
+button{
+background-color:black;
+font-weight:bold;
+cursor:pointer;
+width:300px;
+border-radius:20px;
+align-self: center;
+}
+.error{
+  text-align: center;
+  color:red;
+  background-color:rgba(1,1,1,1);
+  width:300px;
+}
+
+p{
+color:white
+}
+h1 {color: white;}

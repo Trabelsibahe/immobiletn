@@ -1,0 +1,17 @@
+<section>
+  <h1> S'inscire</h1>
+  <div class="error" *ngIf="msg">
+      {{msg}}
+  </div>
+  <form #f="ngForm" (ngSubmit)="signin(f)">
+      <input type="text" name="nom"  placeholder="Tapez votre nom" [ngModel]="clientservice.nom"> <br>
+      <input type="text" name="prenom" placeholder="Tapez votre prenom" [ngModel]="clientservice.prenom"> <br>
+      <input type="text" name="cin" placeholder="Tapez votre carte d'identité national" [ngModel]="clientservice.nom"> <br>
+      <input type="number" name="age" placeholder="Tapez votre age" [ngModel]="clientservice.age"> <br>
+      <input type="text" name="email" placeholder="Tapez votre E-mail" [ngModel]="clientservice.email"> <br>
+      <input type="password" name="password" placeholder="Tapez votre mot de passe" [ngModel]="clientservice.password"> <br>
+
+      <button type="submit" class="btn btn-lg btn-primary" > S'inscire </button>
+
+  </form>
+  </section>

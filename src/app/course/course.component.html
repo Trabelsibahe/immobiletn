@@ -1,0 +1,101 @@
+
+<section class="course">
+
+
+<div class="container">
+  <div class="b1 nav-link"><button mat-button (click)="openDialog()">SERVICES</button></div>
+
+<div class="header"><h1 class="txt2">CATALOGUE</h1>
+
+</div>
+
+
+<mat-tab-group>
+  <div class="test2">
+  <mat-tab label="A Vendre">
+    <div class="example-card">
+<div class="row mt-5" >
+  <div class="col-lg-6 mb-3" *ngFor="let cs of course">
+
+      <div class="box shadow-sm">
+        <div class="container">
+
+          <img src="{{cs.image}}" width="100%">
+
+          <div class="bottom-right"><mark>A VENDRE</mark></div></div>
+
+          <div id="grad"><h2 class="nom mt-2 pl-5">{{cs.name}}</h2></div>
+
+
+
+          <mat-accordion>
+            <mat-expansion-panel hideToggle>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  Details
+                </mat-panel-title>
+                <mat-panel-description>
+                  Voir Plus
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+              <p class="test mt-2">{{cs.description}}</p>
+              <p class="test mt-2">Contact: {{cs.contact}}</p>
+            </mat-expansion-panel>
+            <mat-expansion-panel (opened)="panelOpenState = true"
+                                 (closed)="panelOpenState = false">
+            </mat-expansion-panel>
+          </mat-accordion>
+
+
+
+
+
+</div></div></div>
+
+
+
+
+
+
+
+<div class="test2">
+  <mat-tab label="A Louer">
+    <div class="example-card">
+<div class="row mt-5" >
+
+  <div class="col-lg-6 mb-3" *ngFor="let cs of louer">
+
+      <div class="box shadow-sm">
+        <div class="container">
+
+          <img src="{{cs.image}}" width="100%">
+
+          <div class="bottom-right"><mark id="m2">A LOUER</mark></div></div>
+
+          <div id="grad"><h2 class="nom mt-2 pl-5">{{cs.name}}</h2></div>
+
+
+
+          <mat-accordion>
+            <mat-expansion-panel hideToggle>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  Details
+                </mat-panel-title>
+                <mat-panel-description>
+                  Voir Plus
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+              <p class="test mt-2">{{cs.description}}</p>
+              <p class="test mt-2">Contact: {{cs.contact}}</p>
+            </mat-expansion-panel>
+            <mat-expansion-panel (opened)="panelOpenState = true"
+                                 (closed)="panelOpenState = false">
+            </mat-expansion-panel>
+          </mat-accordion>
+
+
+
+
+
+</div></div></div>

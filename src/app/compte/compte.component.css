@@ -1,0 +1,30 @@
+section{
+  height: 400px;
+  background-image:url("../../assets/wallpaper.jpg");
+  background-size:cover;
+
+
+}
+H1{
+  border-inline-end-color: rgb(255, 255, 255);
+  background-color:black;
+
+  font-family:Copperplate Gothic Light;
+  color:rgb(255, 255, 255);
+   display:flex;
+   justify-content:center;
+   align-items:center;
+
+}
+p{
+
+     font-family:Copperplate Gothic Light;
+     color:white;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding: 8px;
+      margin:5px;
+
+
+}
